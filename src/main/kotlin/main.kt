@@ -21,9 +21,10 @@ fun main(args: Array<String>) {
 
 
     println( myFather.getRelatives())
-    fun getMe(){
+    fun getMe(): Person {
         println(mySelf.firstName)
         println(mySelf.lastName)
+        return mySelf
     }
     getMe()
 }

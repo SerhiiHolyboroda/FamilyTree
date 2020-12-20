@@ -29,5 +29,6 @@ class Person(
     fun getRelatives(){
         println(noOfRelatives)
     }
+
 }
 
